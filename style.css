@@ -834,6 +834,33 @@ a {
     color: #036a6a;
 }
 /* WEB-DAY22_Code */
+/*フッターのリンク隣*/
+.footer-links {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.footer-links a {
+    text-decoration: none;
+    color: #666666;
+    font-size: 0.85rem;
+    transition: color 0.3s ease;
+}
+.footer-links a:hover {
+    color: #036a6a;
+}
+/*タッブー下文部(コピーライト）*/
+.footer-bottom {
+    text.align: center;
+}
+.copyright {
+    margin: 0;
+    font-size: 0.8rem;
+    color: #888888;
+}
+
 
 
 /* ==========================================
